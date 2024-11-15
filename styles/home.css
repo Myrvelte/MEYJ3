@@ -15,3 +15,15 @@ h2{
     text-align: center;
     color: lightgreen;
 }
+@keyframes colorChange {
+    0% { color: red; }
+    20% { color: orange; }
+    40% { color: yellow; }
+    60% { color: green; }
+    80% { color: blue; }
+    100% { color: violet; }
+}
+
+.color-cycle {
+    animation: colorChange 5s infinite;
+}
